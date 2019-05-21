@@ -3,7 +3,8 @@
     public enum ContentType
     {
         Json,
-        XML
+        XML,
+        Test
         
         
     }
