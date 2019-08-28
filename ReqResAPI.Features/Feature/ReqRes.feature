@@ -1,6 +1,6 @@
 ﻿Feature: As a User,I want to Register to Site
 
-Scenario Outline: Register a new User with Valid UserName and email
+Scenario Outline: Register a new User with Valid UserName and Email
 When I register a new User with '<usernameState>' Username and '<passwordState>' Password
 Then registration is sucessfull 
 And token is generated
